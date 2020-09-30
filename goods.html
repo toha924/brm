@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Головна. БРМ-оренда та продаж будівельного опорядження</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="contacts text-white bg-dark">
+      <a href=""><i class="fab fa-facebook-square"></i></a> <a href=""><i class="fab fa-instagram"></i></a> <a
+        href="mailto:"><i class="fas fa-envelope-square"></i> Напишіть нам</a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">BRM Logo</a>
+      <!--<div class="navbar-toggler hamburger hamburger--vortex" data-toggle=collapse data-target="#navbarToggle ">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+    -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+        aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="navbar-collapse collapse justify-content-end" id="navbarToggle">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Головна</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Про нас</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Товари та послуги
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item"><a href="goods.html#scaffolding">Риштування</a></li>
+              <li class="dropdown-item"> <a href="goods.html#formwork"> Опалубка</a></li>
+              <li class="dropdown-item"><a href="goods.html#tower">Вишка Тура</a></li>
+              <li class="dropdown-item"><a href="goods.html#trailer">Битовки</a></li>
+              <li class="dropdown-item"><a href="goods.html#container">Контейнери</a></li>
+              <li class="dropdown-item"><a href="goods.html#cube">Єврокуб</a></li>
+              <li class="dropdown-item"><a href="goods.html#logistics">Доставка</a></li>
+            </ul>
+          </li>
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Об'єкти</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Контакти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class=" bg-dark px-0 px-md-1">
+
+    <div class="container-fluid justify-content-center">
+
+
+      <!-- Body nav -->
+      <div class="container-fluid bg-dark px-0 px-md-1">
+        <div class="row">
+          <ul class=" col-4 col-sm-3 nav nav-tabs flex-column text-white" role="tablist" id="goodslist">
+            <li class="d-flex containef-fluid"><a href="#scaffolding" aria-controls="scaffolding" role="tab"
+                data-toggle="tab">Риштування</a></li>
+
+            <li class="d-flex containef-fluid"><a href="#formwork" aria-controls="formwork" role="tab"
+                data-toggle="tab">Опалубка</a></li>
+            <li class="d-flex containef-fluid"><a href="#tower" aria-controls="tower" role="tab"
+                data-toggle="tab">Вишка-тура</a></li>
+            <li class="d-flex containef-fluid"><a href="#trailer" aria-controls="trailer" role="tab"
+                data-toggle="tab">Вагончики</a></li>
+            <li class="d-flex containef-fluid"><a href="#cube" aria-controls="cube" role="tab"
+                data-toggle="tab">Єврокуби</a></li>
+            <li class="d-flex containef-fluid"><a href="#container" aria-controls="container" role="tab"
+                data-toggle="tab">Контейнери</a></li>
+            <li class="d-flex containef-fluid"><a href="#logistics" aria-controls="logistics" role="tab"
+                data-toggle="tab">Доставка</a></li>
+          </ul>
+          <!-- Body section -->
+          <div class="tab-content col-8 col-sm-9 text-white" id="allgoods">
+            <div role="tabpanel" class="tab-pane" id="scaffolding">Надійна, швидка і проста збірка завдяки методиці
+              логічного монтажу системи плеттак -Штифти, що самофіксуються з поворотним язичком -Можливість вибору
+              матеріалу — алюміній, сталь, деревина -Висока стабільність завдяки закритим по периметру профілям -Зручне
+              кріплення замків при монтажі -Фіксація настилів і панелей -Оптимальна підгонка до різних архітектурних
+              форм, завдяки широкому вибору настилів і панелей по довжині -Тривалий термін експлуатації завдяки міцній
+              конструкції -Простота транспортування і економічність при зберіганні.</div>
+            <div role="tabpanel" class="tab-pane" id="formwork"><img src="Img/formwork1.jfif" alt=""
+                class="preview img-fluid">Опалубка - незамінне будівельне обладнання в сучасних тенденціях будівництва.
+              Опалубка являє собою раму (каркас) , в який заливається розчин бетону (або інші йому подібні розчини) .
+              Рама опалубки - знімна , що дозволяє надати споруді конкретну форму. Сьогодні опалубка виробляється з
+              алюмінію, сталі , дерева і пінополістиролу. За своїм призначенням виділяється : опалубка перекриттів ,
+              стін , колон і шахт. Залежно від кількості циклів використання , можна виділити опалубку знімну і незнімну
+              . Крокуючи в ногу з часом , своїм клієнтам ми пропонуємо: опалубку перекриттів і стін , стійки опалубки та
+              інших комплектуючих елементів від надійних європейських виробників. Гнучкість і універсальність систем
+              дають можливість швидко і якісно виконувати роботи. У опалубці, завдяки застосуванню посилених профілів,
+              досягається висока несуча здатність елементів: як по контурах, так і в середині щита.</div>
+            <div role="tabpanel" class="tab-pane" id="tower"> <img src="Img/tower.png" alt="" class="preview img-fluid">
+              Вишка-тура складається з секцій та робочого настилу. Перевага перед звичайними риштуваннями: - такі
+              конструкції без зусиль пересуваються з місця на місце, - складання елементарне і зовсім не трудомістке. -
+              легко і абсолютно безпечно монтується і демонтується, а завдяки тому, що елементи конструкції зроблені із
+              спеціального сплаву, вона є досить легкою, що дає ще один плюс в зручності і швидкості транспортуванню.
+            </div>
+            <div role="tabpanel" class="tab-pane" id="trailer">Будівельний вагончик «битовка» - це багатофункціональний
+              виріб , застосовується для виконання великої кількості універсальних завдань при будівництві , на
+              будівельних об'єктах і в промислових цілях. Вони можуть використовуватися як тимчасове житло , пости
+              охорони , побутові приміщення і як офісні та складські мобільні модульні будинки . «Битовки» являють собою
+              міцну каркасно- щитову конструкцію з силовим металевим каркасом і облицювальними панелями типу "сендвіч"
+              застосовуються для забезпечення зручного побуту і відпочинку працівників далеко від основного виробництва
+              , для забезпечення проживання , для мобільних офісних приміщень , прорабські , та інше.</div>
+            <div role="tabpanel" class="tab-pane" id="cube"> <img src="Img/cube11.png" alt="ibc-container"
+                class="img-fluid preview"> Єврокуб, або ж ІВС - контейнер. Постійно в наявності еврокуби 1000 лiтрiв, в
+              різному стані, для харчової, технічної води або інших рідин. Склади у Рiвному, Луцьку та Нетiшенi. </div>
+            <div role="tabpanel" class="tab-pane" id="container"><img src="Img/cont11.jfif" class="preview img-fluid"
+                alt=""> Продаж та оренда морських контейнерів:<ul>
+                <li>3ф.(1,3/2,1м.);</li>
+                <li>5ф.(2,6/2,1м.);</li>
+                <li>20ф.(6,05/2,44м.);</li>
+                <li>40ф.(12,2/2,44м.);</li>
+                Контерйнер забезпечить не пільки надійне транспортування вантажів, а й може бути використаний як
+                складське приміщення, або основа під дачний, або й заміський будинок.
+                <img src="Img/cont_house.jfif" alt="" class="preview align-self-end">
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="logistics"><img src="Img/log1.jfif" class="preview" alt="">
+              Приватне підприємство "БРM" виконує доставку на об`єкти замовника власним та найманим транспортом. </div>
+          </div>
+        </div>
+      </div>
+
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row text-white justify-content-center py-3">
+
+        <div
+          class="col-12 col-sm-12 col-md-4 d-flex flex-column align-items-center px-md-0 px-lg-3 justify-content-center text-center order-2 order-md-1">
+          <p>
+            <h4>Офіс</h4>
+            вул. Пластова 27, м. Рівне
+          </p>
+          <div  class="d-none d-md-block d-lg-none style="overflow:hidden;width: 240px;"><iframe width="240" height="240" src="https://maps.google.com/maps?width=240&amp;height=240&amp;hl=en&amp;q=%D0%A0%D0%86%D0%B2%D0%BD%D0%B5%2C%20%D0%B2%D1%83%D0%BB%20%D0%BE%D1%81%D1%82%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%2027+(%D0%9F%D0%9F%20%22%D0%91%D0%A0%D0%9C%22)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+
+          <div  class="d-md-none d-lg-block style="overflow:hidden;width: 360px;position: relative;"><iframe width="360" height="240"
+              src="https://maps.google.com/maps?width=360&amp;height=240&amp;hl=en&amp;q=%D0%A0%D0%86%D0%B2%D0%BD%D0%B5%2C%20%D0%B2%D1%83%D0%BB%20%D0%BE%D1%81%D1%82%D0%B0%D1%84%D0%BE%D0%B2%D0%B0%2027+(%D0%9F%D0%9F%20%22%D0%91%D0%A0%D0%9C%22)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-4 pt-3 order-1 order-md-2 text-center">
+          <ul>
+            <h4>ПП "БРМ"</h4>
+            <li><i class="fab fa-viber"></i>(067) 362-55-01 </li>
+            <li><i class="fab fa-skype"> </i> BRM-LESA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+            <li><i class="fas fa-phone-alt"></i>(0362) 43-52-56 </li>
+            <li><i class="fas fa-phone-alt"></i>(096) 213-55-52 </li>
+            <li><i class="fas fa-phone-alt"></i>(067) 362-55-01</li>
+          </ul>
+        </div>
+
+        <div
+          class="col-12 col-sm-12 col-md-4 d-flex flex-column align-items-center px-md-0 px-lg-3 justify-content-center text-center order-3 order-md-3">
+          <p>
+            <h4>Склад</h4>с. Нова Українка
+          </p>
+          <div class="d-none d-md-block d-lg-none" style="overflow:hidden;width: 240px;"><iframe width="240" height="240" src="https://maps.google.com/maps?width=240&amp;height=240&amp;hl=en&amp;q=%D0%9D%D0%BE%D0%B2%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B0+(%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D0%9F%20%22%D0%91%D0%A0%D0%9C%22)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</div>
+          <div class="d-md-none d-lg-block" style="overflow:hidden;width: 360px;position: relative;"><iframe width="360" height="240"
+              src="https://maps.google.com/maps?width=360&amp;height=240&amp;hl=en&amp;q=%D0%9D%D0%BE%D0%B2%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B0+(%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D0%9F%20%22%D0%91%D0%A0%D0%9C%22)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/d6a91c29b8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
